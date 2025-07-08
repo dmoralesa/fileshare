@@ -1,0 +1,24 @@
+uuid: feded66f-4b2d-401f-b05c-40a9bb77f5ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_answer
+    - node.type.faq
+  module:
+    - text
+_core:
+  default_config_hash: eO_Qp9iscnf0rUnCN-WColMk20jwQuEM3HUS87JfuqM
+id: node.faq.field_answer
+field_name: field_answer
+entity_type: node
+bundle: faq
+label: Answer
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

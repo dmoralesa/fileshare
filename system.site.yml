@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: y2LyVni2uXnlCm8KG1jOaDtvc-IRNX4XMZ876P5NefI
+langcode: en
+uuid: db2be8ec-cfc1-4c13-a43b-1f137479d9fd
+name: e-commerce
+mail: dmoralesa@sura.com.co
+slogan: Hola
+page:
+  403: ''
+  404: ''
+  front: /node/37
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

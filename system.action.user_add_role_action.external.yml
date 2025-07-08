@@ -1,0 +1,14 @@
+uuid: 766b045a-03c6-4d64-bbd7-1b1b7244ca2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.external
+  module:
+    - user
+id: user_add_role_action.external
+label: 'Add the external role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: external

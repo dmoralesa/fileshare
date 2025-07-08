@@ -1,0 +1,12 @@
+uuid: a5b10ea0-f72c-4631-bfe3-6b9507426120
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dbUqgRtIt_ItZUA1Aie_mqutfTC8K7ByPqE7Y42oxiU
+id: card
+label: Card
+icon_uuid: null
+icon_default: null
+description: 'A <em>Card</em> contains image, title, summary and link.'
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: ceb6995d-d375-4399-8a57-2493ff38dfd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.internos
+  module:
+    - user
+id: user_remove_role_action.internos
+label: 'Remove the Internos role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: internos

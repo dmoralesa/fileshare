@@ -1,0 +1,34 @@
+uuid: 28a06e58-ae17-4040-8ea6-9dfb4b2564ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - apigee_kickstart_enhancement
+    - system
+  theme:
+    - apigee_kickstart
+_core:
+  default_config_hash: xSpz-XHmNr285sEeqvZ_G1_C5bWeY9yjgaDdyjCc7cU
+id: apigee_kickstart_main_menu
+theme: apigee_kickstart
+region: navbar_left
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  block_type:
+    id: block_type
+    uuid: 28a06e58-ae17-4040-8ea6-9dfb4b2564ea
+    bundles: {  }
+    is_adjacent: 0
+    negate: 0

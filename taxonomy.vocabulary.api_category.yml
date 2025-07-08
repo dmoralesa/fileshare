@@ -1,0 +1,11 @@
+uuid: cd2f226e-676b-467e-baaf-e1e7d55066e4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G6ivxtvJyEtyH9gvFhTGwJ9VzwEMZzswFOgk8357gfg
+name: 'API Category'
+vid: api_category
+description: 'Categories for API Docs.'
+weight: 0
+new_revision: false

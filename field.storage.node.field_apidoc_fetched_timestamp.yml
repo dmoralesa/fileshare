@@ -1,0 +1,23 @@
+uuid: 3a987932-aa3e-461f-aa87-a6434ed3224f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - apigee_api_catalog
+_core:
+  default_config_hash: eK9jHyvAhWY2PSF2PA9XJj3IiHWhidOZmaoA2cQwqgg
+id: node.field_apidoc_fetched_timestamp
+field_name: field_apidoc_fetched_timestamp
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+uuid: 960cd4cd-4223-446a-881a-b746f68ccb20
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: cRTtZzdj3C59QkKmHltJTnj_m9LgaRpikTpxZ-8ni2M
+id: media.text_image
+label: 'Text & Image'
+description: ''
+targetEntityType: media
+cache: true

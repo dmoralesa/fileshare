@@ -1,0 +1,14 @@
+uuid: e138005b-b9bf-4e11-9ef7-530fd8edb7af
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.external
+  module:
+    - user
+id: user_remove_role_action.external
+label: 'Remove the external role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: external

@@ -1,0 +1,34 @@
+uuid: 49eefc90-cbd2-4236-a9f6-7940e1ec9d38
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.teaser
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.teaser
+  module:
+    - responsive_image
+_core:
+  default_config_hash: pEGT2cPxdip6tmnyztFE-yhXfRZ20fssuYKa6fca1FI
+id: media.image.teaser
+targetEntityType: media
+bundle: image
+mode: teaser
+content:
+  field_media_image:
+    type: responsive_image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      responsive_image_style: teaser
+      image_link: ''
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

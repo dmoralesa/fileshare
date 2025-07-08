@@ -1,0 +1,9 @@
+uuid: 5e82d2c5-49df-4e03-862f-cfec516c7f6e
+langcode: en
+status: true
+dependencies: {  }
+id: internos
+label: Internal
+weight: 3
+is_admin: null
+permissions: {  }

@@ -2,9 +2,9 @@ _core:
   default_config_hash: y2LyVni2uXnlCm8KG1jOaDtvc-IRNX4XMZ876P5NefI
 langcode: en
 uuid: db2be8ec-cfc1-4c13-a43b-1f137479d9fd
-name: e-commerce
+name: e-commerce-apiportal
 mail: dmoralesa@sura.com.co
-slogan: Hola
+slogan: Suramericana
 page:
   403: ''
   404: ''
